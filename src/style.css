@@ -278,12 +278,58 @@ scroll-page {
     align-items: center;
     justify-content: center;
     padding-left: 30px;
+    justify-content: end;
 
 }
 
 .cardCarrossel {
     display: flex;
-    /* justify-content: end; */
+}
+
+
+@media (width: 1440px) {
+    .cardTitles{
+        padding: 0;
+    }
+
+    .banner{
+        background-image: url(../assets/img.png);
+        background-position: top;
+    }
+
+    .titles{
+        padding-left: 80%;
+        padding-bottom: 120px;
+    }
+
+    .img{
+        width: 600px;
+        height: 400px;
+    }
+
+    .carrossel{
+        height: 155vh;
+    }
+}
+
+@media (width: 1024px) {
+    .cardTitles{
+        padding: 0;
+    }
+
+    .banner{
+        background-image: url(../assets/img.png);
+        background-position: top;
+    }
+
+    .titles{
+        padding-left: 30%;
+        padding-bottom: 40px;
+    }
+
+    .carrossel{
+        height: 150vh;
+    }
 }
 
 @media (max-width: 991px) {
@@ -306,12 +352,16 @@ scroll-page {
     }
 
     .titles{
-        padding-left: 75px;
         padding-bottom: 70px;
+    }
+
+    .imgT{
+        width: 100vw;
     }
 
     .banner{
         background-image: url(../assets/img.png);
+        background-position: top;
     }
 
     .banner .play {
@@ -343,20 +393,35 @@ scroll-page {
     .cardTitles{
         max-width: 600px;
         padding: 0;
-        padding-bottom: 10px;
+        padding-bottom: 50px;
     }
 
     .titles{
         padding-left: 40px;
+        padding: 0;
 
     }
 
+    .carrossel{
+        height: 150vh;
+    }
+
+    .img{
+        width: 300px;
+    }
+
+    header .logo img{
+        max-width: 100px;
+    }
+
+
     .imgT{
-        width: 500px;
+        width: 100vw;
     }
 
     .banner {
         background-image: url(../assets/img.png);
+        background-position: top;
     }
 
     body{
