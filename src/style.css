@@ -364,6 +364,7 @@ scroll-page {
         background-position: top;
     }
 
+
     .banner .play {
         left: 50px;
         font-size: 1em;
@@ -391,12 +392,13 @@ scroll-page {
     }
 
     .cardTitles{
-        max-width: 600px;
         padding: 0;
-        padding-bottom: 50px;
     }
 
     .titles{
+        display: flex;
+        align-items:flex-end;
+        justify-content: center;
         padding-left: 40px;
         padding: 0;
 
@@ -404,7 +406,11 @@ scroll-page {
 
     .carrossel{
         height: 150vh;
+        display: flex;
+        justify-content: space-between;
     }
+
+    
 
     .img{
         width: 300px;
